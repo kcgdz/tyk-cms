@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "regions": ["fra1"],
+  "env": {
+    "NEXTAUTH_URL": "@production-url"
+  }
+}
